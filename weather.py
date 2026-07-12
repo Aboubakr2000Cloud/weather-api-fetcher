@@ -87,7 +87,7 @@ def retry_fetch(city, max_retries=3):
            logger.warning(f"Attempt {attempt} failed. Retrying in {wait_time} seconds...")
            time.sleep(wait_time)
         else:
-            logger.error("All retries failed due to network error. Treating as global failure.")
+            logger.error("All retries failed due to network error! Treating as global failure.")
 
     return FetchResult.GLOBAL_NETWORK_FAILURE, None
 
@@ -213,3 +213,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

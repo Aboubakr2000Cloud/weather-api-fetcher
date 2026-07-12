@@ -1,8 +1,8 @@
-# Week 7 — Python for Automation & APIs
+# Weather-Api-Fetcher
 
 ## Overview
 
-This week focused on integrating Python with external APIs and implementing production-ready automation patterns. The project demonstrates real-world API consumption, intelligent error handling, retry logic with exponential backoff, and professional logging practices.
+This project focused on integrating Python with external APIs and implementing production-ready automation patterns. The project demonstrates real-world API consumption, intelligent error handling, retry logic with exponential backoff, and professional logging practices.
 
 **Key Learning Areas:**
 - HTTP requests with the `requests` library
@@ -23,7 +23,7 @@ A professional command-line tool that fetches current weather data from OpenWeat
 ### Project Structure
 
 ```
-Cloud-learning-project/
+Weather-Api-Fetcher/
 │
 ├── weather.py              # Main application script
 ├── config.py               # Configuration and settings
@@ -306,4 +306,5 @@ python weather.py London --dry-run
 
 ---
 
-**Week 7 Complete!** This project demonstrates professional API integration with production-ready error handling, retry logic, and logging practices. The code showcases intelligent failure mode analysis with global network detection, preventing wasted retry attempts. Skills acquired this week are fundamental to cloud automation, infrastructure monitoring, and DevOps workflows. 
+**Weather-Api-Fetcher Project Complete!** This project demonstrates professional API integration with production-ready error handling, retry logic, and logging practices. The code showcases intelligent failure mode analysis with global network detection, preventing wasted retry attempts. Skills acquired this project are fundamental to cloud automation, infrastructure monitoring, and DevOps workflows. 
+
